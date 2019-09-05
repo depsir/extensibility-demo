@@ -1,0 +1,8 @@
+{
+  "title": "Insert here your url to be converted into qrcode",
+  "type": "object",
+  "required": ["url"],
+  "properties": {
+    "url": {"type": "string", "title": "Url to convert", "default": "http://example.com/"}
+  }
+}
